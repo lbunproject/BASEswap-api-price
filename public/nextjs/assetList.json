@@ -104,10 +104,33 @@
             "display": "base",
             "symbol": "BASE",
             "logo_URIs": {
-                "png": "https://i.ibb.co/Tk1BH6h/LBUNC-256.png"
+                "png": "/tokens/base.png"
             },
             "coingecko_id": ""
         },
+	{
+            "description": "CW20 version of native LUNC.",
+            "type_asset": "cw20",
+            "address": "terra10fusc7487y4ju2v5uavkauf3jdpxx9h8sc7wsqdqg4rne8t4qyrq8385q6",
+            "denom_units": [
+                {
+                    "denom": "cw20:terra10fusc7487y4ju2v5uavkauf3jdpxx9h8sc7wsqdqg4rne8t4qyrq8385q6",
+                    "exponent": 0
+                },
+                {
+                    "denom": "cwlunc",
+                    "exponent": 6
+                }
+            ],
+            "base": "cw20:terra10fusc7487y4ju2v5uavkauf3jdpxx9h8sc7wsqdqg4rne8t4qyrq8385q6",
+            "name": "cwLUNC Token",
+            "display": "cwLUNC",
+            "symbol": "cwLUNC",
+            "logo_URIs": {
+                "png": "https://i.ibb.co/KsxHYW2/cw-LUNC-128.png"
+            },
+            "coingecko_id": ""
+        },  
         {
             "description": "The KRW stablecoin of Terra Classic.",
             "denom_units": [
@@ -143,29 +166,6 @@
             },
             "coingecko_id": "terrakrw"
         },
-	{
-            "description": "CW20 version of native LUNC.",
-            "type_asset": "cw20",
-            "address": "terra10fusc7487y4ju2v5uavkauf3jdpxx9h8sc7wsqdqg4rne8t4qyrq8385q6",
-            "denom_units": [
-                {
-                    "denom": "cw20:terra10fusc7487y4ju2v5uavkauf3jdpxx9h8sc7wsqdqg4rne8t4qyrq8385q6",
-                    "exponent": 0
-                },
-                {
-                    "denom": "cwlunc",
-                    "exponent": 6
-                }
-            ],
-            "base": "cw20:terra10fusc7487y4ju2v5uavkauf3jdpxx9h8sc7wsqdqg4rne8t4qyrq8385q6",
-            "name": "cwLUNC Token",
-            "display": "cwLUNC",
-            "symbol": "cwLUNC",
-            "logo_URIs": {
-                "png": "https://i.ibb.co/KsxHYW2/cw-LUNC-128.png"
-            },
-            "coingecko_id": ""
-        },  
         {
             "description": "The governance token of the White Whale protocol on Terra.",
             "type_asset": "cw20",
