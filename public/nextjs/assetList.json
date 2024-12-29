@@ -2,42 +2,7 @@
     "$schema": "../assetlist.schema.json",
     "chain_name": "terra",
     "assets": [
-        {
-            "description": "The native staking token of Terra Classic.",
-            "denom_units": [
-                {
-                    "denom": "uluna",
-                    "exponent": 0,
-                    "aliases": [
-                        "microluna"
-                    ]
-                },
-                {
-                    "denom": "mluna",
-                    "exponent": 3,
-                    "aliases": [
-                        "milliluna"
-                    ]
-                },
-                {
-                    "denom": "luna",
-                    "exponent": 6,
-                    "aliases": [
-                        "lunc"
-                    ]
-                }
-            ],
-            "base": "uluna",
-            "name": "Luna Classic",
-            "display": "luna",
-            "symbol": "LUNC",
-            "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.svg",
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.png"
-            },
-            "coingecko_id": "terra-luna"
-        },
-        {
+         {
             "description": "The USD stablecoin of Terra Classic.",
             "denom_units": [
                 {
