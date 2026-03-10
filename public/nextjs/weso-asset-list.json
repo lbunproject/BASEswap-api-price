@@ -1,0 +1,231 @@
+{
+  "chain_name": "terra-classic",
+  "assets": [
+    {
+      "description": "The native staking and fee token of Terra Classic.",
+      "type_asset": "native",
+      "denom_units": [
+        {
+          "denom": "uluna",
+          "exponent": 0,
+          "aliases": [
+            "microLUNC"
+          ]
+        },
+        {
+          "denom": "lunc",
+          "exponent": 6
+        }
+      ],
+      "base": "uluna",
+      "name": "Terra Luna Classic",
+      "display": "lunc",
+      "symbol": "LUNC",
+      "logo_URIs": {
+        "png": "/images/lunc-logo.png"
+      },
+      "app": {
+        "asset_id": "lunc",
+        "chain": "terra-classic",
+        "token_type": "native",
+        "denom_or_contract": "uluna",
+        "decimals": 6,
+        "logo_path": "/images/lunc-logo.png",
+        "enabled": true,
+        "default_visible": true,
+        "sort_order": 1,
+        "price_symbol": "LUNC",
+        "sparkline_series": "lunc_price_usd",
+        "can_send": true,
+        "can_receive": true
+      }
+    },
+    {
+      "description": "The native USTC stablecoin token of Terra Classic.",
+      "type_asset": "native",
+      "denom_units": [
+        {
+          "denom": "uusd",
+          "exponent": 0,
+          "aliases": [
+            "microUSTC"
+          ]
+        },
+        {
+          "denom": "ustc",
+          "exponent": 6
+        }
+      ],
+      "base": "uusd",
+      "name": "TerraClassicUSD",
+      "display": "ustc",
+      "symbol": "USTC",
+      "logo_URIs": {
+        "png": "/images/ustc-logo.png"
+      },
+      "app": {
+        "asset_id": "ustc",
+        "chain": "terra-classic",
+        "token_type": "native",
+        "denom_or_contract": "uusd",
+        "decimals": 6,
+        "logo_path": "/images/ustc-logo.png",
+        "enabled": true,
+        "default_visible": true,
+        "sort_order": 2,
+        "price_symbol": "USTC",
+        "sparkline_series": "ustc_price_usd",
+        "can_send": true,
+        "can_receive": true
+      }
+    },
+    {
+      "description": "WESO token on Terra Classic.",
+      "type_asset": "cw20",
+      "address": "terra13ryrrlcskwa05cd94h54c8rnztff9l82pp0zqnfvlwt77za8wjjsld36ms",
+      "denom_units": [
+        {
+          "denom": "cw20:terra13ryrrlcskwa05cd94h54c8rnztff9l82pp0zqnfvlwt77za8wjjsld36ms",
+          "exponent": 0
+        },
+        {
+          "denom": "weso",
+          "exponent": 6
+        }
+      ],
+      "base": "cw20:terra13ryrrlcskwa05cd94h54c8rnztff9l82pp0zqnfvlwt77za8wjjsld36ms",
+      "name": "WESO DeFi",
+      "display": "weso",
+      "symbol": "WESO",
+      "logo_URIs": {
+        "png": "/images/wesodefilogo.jpg"
+      },
+      "app": {
+        "asset_id": "weso",
+        "chain": "terra-classic",
+        "token_type": "cw20",
+        "denom_or_contract": "terra13ryrrlcskwa05cd94h54c8rnztff9l82pp0zqnfvlwt77za8wjjsld36ms",
+        "decimals": 6,
+        "logo_path": "/images/wesodefilogo.jpg",
+        "enabled": true,
+        "default_visible": true,
+        "sort_order": 3,
+        "price_symbol": "WESO",
+        "sparkline_series": "weso_price_usd",
+        "can_send": true,
+        "can_receive": true
+      }
+    },
+    {
+      "description": "REBASE token on Terra Classic.",
+      "type_asset": "cw20",
+      "address": "terra1uewxz67jhhhs2tj97pfm2egtk7zqxuhenm4y4m",
+      "denom_units": [
+        {
+          "denom": "cw20:terra1uewxz67jhhhs2tj97pfm2egtk7zqxuhenm4y4m",
+          "exponent": 0
+        },
+        {
+          "denom": "rebase",
+          "exponent": 6
+        }
+      ],
+      "base": "cw20:terra1uewxz67jhhhs2tj97pfm2egtk7zqxuhenm4y4m",
+      "name": "Rebase Token",
+      "display": "rebase",
+      "symbol": "REBASE",
+      "logo_URIs": {
+        "png": "/images/rebase-logo.png"
+      },
+      "app": {
+        "asset_id": "rebase",
+        "chain": "terra-classic",
+        "token_type": "cw20",
+        "denom_or_contract": "terra1uewxz67jhhhs2tj97pfm2egtk7zqxuhenm4y4m",
+        "decimals": 6,
+        "logo_path": "/images/rebase-logo.png",
+        "enabled": true,
+        "default_visible": true,
+        "sort_order": 4,
+        "price_symbol": "REBASE",
+        "sparkline_series": "rebase_price_usd",
+        "can_send": true,
+        "can_receive": true
+      }
+    },
+    {
+      "description": "Wrapped LUNC CW20 token on Terra Classic.",
+      "type_asset": "cw20",
+      "address": "terra10fusc7487y4ju2v5uavkauf3jdpxx9h8sc7wsqdqg4rne8t4qyrq8385q6",
+      "denom_units": [
+        {
+          "denom": "cw20:terra10fusc7487y4ju2v5uavkauf3jdpxx9h8sc7wsqdqg4rne8t4qyrq8385q6",
+          "exponent": 0
+        },
+        {
+          "denom": "cwlunc",
+          "exponent": 6
+        }
+      ],
+      "base": "cw20:terra10fusc7487y4ju2v5uavkauf3jdpxx9h8sc7wsqdqg4rne8t4qyrq8385q6",
+      "name": "Wrapped Luna Classic",
+      "display": "cwlunc",
+      "symbol": "CWLUNC",
+      "logo_URIs": {
+        "png": "/images/cwlunc-logo.png"
+      },
+      "app": {
+        "asset_id": "cwlunc",
+        "chain": "terra-classic",
+        "token_type": "cw20",
+        "denom_or_contract": "terra10fusc7487y4ju2v5uavkauf3jdpxx9h8sc7wsqdqg4rne8t4qyrq8385q6",
+        "decimals": 6,
+        "logo_path": "/images/cwlunc-logo.png",
+        "enabled": true,
+        "default_visible": true,
+        "sort_order": 5,
+        "price_symbol": "CWLUNC",
+        "sparkline_series": "lunc_price_usd",
+        "can_send": true,
+        "can_receive": true
+      }
+    },
+    {
+      "description": "Wrapped USTC CW20 token on Terra Classic.",
+      "type_asset": "cw20",
+      "address": "terra1uncwzdhxdktqpx4rj6mkuhl0ekv0raua0058rr7zgnapm9najyyqgtpf6h",
+      "denom_units": [
+        {
+          "denom": "cw20:terra1uncwzdhxdktqpx4rj6mkuhl0ekv0raua0058rr7zgnapm9najyyqgtpf6h",
+          "exponent": 0
+        },
+        {
+          "denom": "cwustc",
+          "exponent": 6
+        }
+      ],
+      "base": "cw20:terra1uncwzdhxdktqpx4rj6mkuhl0ekv0raua0058rr7zgnapm9najyyqgtpf6h",
+      "name": "Wrapped USTC",
+      "display": "cwustc",
+      "symbol": "CWUSTC",
+      "logo_URIs": {
+        "png": "/images/ustc-logo.png"
+      },
+      "app": {
+        "asset_id": "cwustc",
+        "chain": "terra-classic",
+        "token_type": "cw20",
+        "denom_or_contract": "terra1uncwzdhxdktqpx4rj6mkuhl0ekv0raua0058rr7zgnapm9najyyqgtpf6h",
+        "decimals": 6,
+        "logo_path": "/images/ustc-logo.png",
+        "enabled": true,
+        "default_visible": true,
+        "sort_order": 6,
+        "price_symbol": "CWUSTC",
+        "sparkline_series": "ustc_price_usd",
+        "can_send": true,
+        "can_receive": true
+      }
+    }
+  ]
+}
