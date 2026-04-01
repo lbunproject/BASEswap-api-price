@@ -226,6 +226,43 @@
         "can_send": true,
         "can_receive": true
       }
+    },
+    {
+      "description": "Wrapped AVAX CW20 token on Terra Classic.",
+      "type_asset": "cw20",
+      "address": "terra1hj8de24c3yqvcsv9r8chr03fzwsak3hgd8gv3m",
+      "denom_units": [
+        {
+          "denom": "cw20:terra1hj8de24c3yqvcsv9r8chr03fzwsak3hgd8gv3m",
+          "exponent": 0
+        },
+        {
+          "denom": "wavax",
+          "exponent": 8
+        }
+      ],
+      "base": "cw20:terra1hj8de24c3yqvcsv9r8chr03fzwsak3hgd8gv3m",
+      "name": "Wrapped AVAX",
+      "display": "wavax",
+      "symbol": "WAVAX",
+      "logo_URIs": {
+        "png": "/images/wavax-logo.png"
+      },
+      "app": {
+        "asset_id": "wavax",
+        "chain": "terra-classic",
+        "token_type": "cw20",
+        "denom_or_contract": "terra1hj8de24c3yqvcsv9r8chr03fzwsak3hgd8gv3m",
+        "decimals": 8,
+        "logo_path": "/images/wavax-logo.png",
+        "enabled": true,
+        "default_visible": true,
+        "sort_order": 7,
+        "price_symbol": "WAVAX",
+        "sparkline_series": "wavax_price_usd",
+        "can_send": true,
+        "can_receive": true
+      }
     }
   ]
 }
