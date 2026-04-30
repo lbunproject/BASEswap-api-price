@@ -21,11 +21,71 @@
       "volume24hUsdEstimate": 0.0,
       "volume7dUsdEstimate": 0.0
     },
+    "amplunc-cwustc": {
+      "baseOrStartSymbol": "AMPLUNC",
+      "currentHourId": 493770,
+      "hourVolumeUsdEstimate": 0.0,
+      "pairId": "amplunc-cwustc",
+      "pairType": "routed",
+      "quoteOrEndSymbol": "CWUSTC",
+      "raw": {
+        "hourVolumePrimary": 0.0,
+        "hourVolumeSecondary": 0.0,
+        "volume24hPrimary": 0.0,
+        "volume24hSecondary": 0.0,
+        "volume7dPrimary": 0.0,
+        "volume7dSecondary": 0.0
+      },
+      "swapCount24h": 0,
+      "swapCount7d": 0,
+      "volume24hUsdEstimate": 0.0,
+      "volume7dUsdEstimate": 0.0
+    },
+    "amplunc-lunc": {
+      "baseOrStartSymbol": "AMPLUNC",
+      "currentHourId": 493770,
+      "hourVolumeUsdEstimate": 0.0,
+      "pairId": "amplunc-lunc",
+      "pairType": "routed",
+      "quoteOrEndSymbol": "LUNC",
+      "raw": {
+        "hourVolumePrimary": 0.0,
+        "hourVolumeSecondary": 0.0,
+        "volume24hPrimary": 0.0,
+        "volume24hSecondary": 0.0,
+        "volume7dPrimary": 0.0,
+        "volume7dSecondary": 0.0
+      },
+      "swapCount24h": 0,
+      "swapCount7d": 0,
+      "volume24hUsdEstimate": 0.0,
+      "volume7dUsdEstimate": 0.0
+    },
     "amplunc-ustc": {
       "baseOrStartSymbol": "USTC",
       "currentHourId": 493770,
       "hourVolumeUsdEstimate": 0.0,
       "pairId": "amplunc-ustc",
+      "pairType": "routed",
+      "quoteOrEndSymbol": "AMPLUNC",
+      "raw": {
+        "hourVolumePrimary": 0.0,
+        "hourVolumeSecondary": 0.0,
+        "volume24hPrimary": 0.0,
+        "volume24hSecondary": 0.0,
+        "volume7dPrimary": 0.0,
+        "volume7dSecondary": 0.0
+      },
+      "swapCount24h": 0,
+      "swapCount7d": 0,
+      "volume24hUsdEstimate": 0.0,
+      "volume7dUsdEstimate": 0.0
+    },
+    "astro-amplunc": {
+      "baseOrStartSymbol": "ASTRO",
+      "currentHourId": 493770,
+      "hourVolumeUsdEstimate": 0.0,
+      "pairId": "astro-amplunc",
       "pairType": "routed",
       "quoteOrEndSymbol": "AMPLUNC",
       "raw": {
@@ -61,6 +121,46 @@
       "volume24hUsdEstimate": 0.02413278,
       "volume7dUsdEstimate": 0.101584277617
     },
+    "astro-cwustc": {
+      "baseOrStartSymbol": "ASTRO",
+      "currentHourId": 493770,
+      "hourVolumeUsdEstimate": 0.0,
+      "pairId": "astro-cwustc",
+      "pairType": "routed",
+      "quoteOrEndSymbol": "CWUSTC",
+      "raw": {
+        "hourVolumePrimary": 0.0,
+        "hourVolumeSecondary": 0.0,
+        "volume24hPrimary": 0.0,
+        "volume24hSecondary": 0.0,
+        "volume7dPrimary": 0.0,
+        "volume7dSecondary": 0.0
+      },
+      "swapCount24h": 0,
+      "swapCount7d": 0,
+      "volume24hUsdEstimate": 0.0,
+      "volume7dUsdEstimate": 0.0
+    },
+    "astro-lunc": {
+      "baseOrStartSymbol": "ASTRO",
+      "currentHourId": 493770,
+      "hourVolumeUsdEstimate": 0.0,
+      "pairId": "astro-lunc",
+      "pairType": "routed",
+      "quoteOrEndSymbol": "LUNC",
+      "raw": {
+        "hourVolumePrimary": 0.0,
+        "hourVolumeSecondary": 0.0,
+        "volume24hPrimary": 0.0,
+        "volume24hSecondary": 0.0,
+        "volume7dPrimary": 0.0,
+        "volume7dSecondary": 0.0
+      },
+      "swapCount24h": 0,
+      "swapCount7d": 0,
+      "volume24hUsdEstimate": 0.0,
+      "volume7dUsdEstimate": 0.0
+    },
     "astro-ustc": {
       "baseOrStartSymbol": "USTC",
       "currentHourId": 493770,
@@ -68,6 +168,26 @@
       "pairId": "astro-ustc",
       "pairType": "routed",
       "quoteOrEndSymbol": "ASTRO",
+      "raw": {
+        "hourVolumePrimary": 0.0,
+        "hourVolumeSecondary": 0.0,
+        "volume24hPrimary": 0.0,
+        "volume24hSecondary": 0.0,
+        "volume7dPrimary": 0.0,
+        "volume7dSecondary": 0.0
+      },
+      "swapCount24h": 0,
+      "swapCount7d": 0,
+      "volume24hUsdEstimate": 0.0,
+      "volume7dUsdEstimate": 0.0
+    },
+    "astro-wavax": {
+      "baseOrStartSymbol": "ASTRO",
+      "currentHourId": 493770,
+      "hourVolumeUsdEstimate": 0.0,
+      "pairId": "astro-wavax",
+      "pairType": "routed",
+      "quoteOrEndSymbol": "WAVAX",
       "raw": {
         "hourVolumePrimary": 0.0,
         "hourVolumeSecondary": 0.0,
@@ -121,13 +241,13 @@
       "volume24hUsdEstimate": 0.0,
       "volume7dUsdEstimate": 0.0
     },
-    "lunc-cwustc": {
-      "baseOrStartSymbol": "LUNC",
+    "cwustc-lunc": {
+      "baseOrStartSymbol": "CWUSTC",
       "currentHourId": 493770,
       "hourVolumeUsdEstimate": 0.0,
-      "pairId": "lunc-cwustc",
+      "pairId": "cwustc-lunc",
       "pairType": "routed",
-      "quoteOrEndSymbol": "CWUSTC",
+      "quoteOrEndSymbol": "LUNC",
       "raw": {
         "hourVolumePrimary": 0.0,
         "hourVolumeSecondary": 0.0,
@@ -161,6 +281,86 @@
       "volume24hUsdEstimate": 0.0,
       "volume7dUsdEstimate": 0.0
     },
+    "rebase-amplunc": {
+      "baseOrStartSymbol": "REBASE",
+      "currentHourId": 493770,
+      "hourVolumeUsdEstimate": 0.0,
+      "pairId": "rebase-amplunc",
+      "pairType": "routed",
+      "quoteOrEndSymbol": "AMPLUNC",
+      "raw": {
+        "hourVolumePrimary": 0.0,
+        "hourVolumeSecondary": 0.0,
+        "volume24hPrimary": 0.0,
+        "volume24hSecondary": 0.0,
+        "volume7dPrimary": 0.0,
+        "volume7dSecondary": 0.0
+      },
+      "swapCount24h": 0,
+      "swapCount7d": 0,
+      "volume24hUsdEstimate": 0.0,
+      "volume7dUsdEstimate": 0.0
+    },
+    "rebase-astro": {
+      "baseOrStartSymbol": "REBASE",
+      "currentHourId": 493770,
+      "hourVolumeUsdEstimate": 0.0,
+      "pairId": "rebase-astro",
+      "pairType": "routed",
+      "quoteOrEndSymbol": "ASTRO",
+      "raw": {
+        "hourVolumePrimary": 0.0,
+        "hourVolumeSecondary": 0.0,
+        "volume24hPrimary": 0.0,
+        "volume24hSecondary": 0.0,
+        "volume7dPrimary": 0.0,
+        "volume7dSecondary": 0.0
+      },
+      "swapCount24h": 0,
+      "swapCount7d": 0,
+      "volume24hUsdEstimate": 0.0,
+      "volume7dUsdEstimate": 0.0
+    },
+    "rebase-cwlunc": {
+      "baseOrStartSymbol": "REBASE",
+      "currentHourId": 493770,
+      "hourVolumeUsdEstimate": 0.0,
+      "pairId": "rebase-cwlunc",
+      "pairType": "routed",
+      "quoteOrEndSymbol": "CWLUNC",
+      "raw": {
+        "hourVolumePrimary": 0.0,
+        "hourVolumeSecondary": 0.0,
+        "volume24hPrimary": 0.0,
+        "volume24hSecondary": 0.0,
+        "volume7dPrimary": 0.0,
+        "volume7dSecondary": 0.0
+      },
+      "swapCount24h": 0,
+      "swapCount7d": 0,
+      "volume24hUsdEstimate": 0.0,
+      "volume7dUsdEstimate": 0.0
+    },
+    "rebase-cwustc": {
+      "baseOrStartSymbol": "REBASE",
+      "currentHourId": 493770,
+      "hourVolumeUsdEstimate": 0.0,
+      "pairId": "rebase-cwustc",
+      "pairType": "routed",
+      "quoteOrEndSymbol": "CWUSTC",
+      "raw": {
+        "hourVolumePrimary": 0.0,
+        "hourVolumeSecondary": 0.0,
+        "volume24hPrimary": 0.0,
+        "volume24hSecondary": 0.0,
+        "volume7dPrimary": 0.0,
+        "volume7dSecondary": 0.0
+      },
+      "swapCount24h": 0,
+      "swapCount7d": 0,
+      "volume24hUsdEstimate": 0.0,
+      "volume7dUsdEstimate": 0.0
+    },
     "rebase-lunc": {
       "baseOrStartSymbol": "REBASE",
       "currentHourId": 493770,
@@ -168,6 +368,46 @@
       "pairId": "rebase-lunc",
       "pairType": "routed",
       "quoteOrEndSymbol": "LUNC",
+      "raw": {
+        "hourVolumePrimary": 0.0,
+        "hourVolumeSecondary": 0.0,
+        "volume24hPrimary": 0.0,
+        "volume24hSecondary": 0.0,
+        "volume7dPrimary": 0.0,
+        "volume7dSecondary": 0.0
+      },
+      "swapCount24h": 0,
+      "swapCount7d": 0,
+      "volume24hUsdEstimate": 0.0,
+      "volume7dUsdEstimate": 0.0
+    },
+    "rebase-wavax": {
+      "baseOrStartSymbol": "REBASE",
+      "currentHourId": 493770,
+      "hourVolumeUsdEstimate": 0.0,
+      "pairId": "rebase-wavax",
+      "pairType": "routed",
+      "quoteOrEndSymbol": "WAVAX",
+      "raw": {
+        "hourVolumePrimary": 0.0,
+        "hourVolumeSecondary": 0.0,
+        "volume24hPrimary": 0.0,
+        "volume24hSecondary": 0.0,
+        "volume7dPrimary": 0.0,
+        "volume7dSecondary": 0.0
+      },
+      "swapCount24h": 0,
+      "swapCount7d": 0,
+      "volume24hUsdEstimate": 0.0,
+      "volume7dUsdEstimate": 0.0
+    },
+    "wavax-amplunc": {
+      "baseOrStartSymbol": "WAVAX",
+      "currentHourId": 493770,
+      "hourVolumeUsdEstimate": 0.0,
+      "pairId": "wavax-amplunc",
+      "pairType": "routed",
+      "quoteOrEndSymbol": "AMPLUNC",
       "raw": {
         "hourVolumePrimary": 0.0,
         "hourVolumeSecondary": 0.0,
@@ -201,6 +441,46 @@
       "volume24hUsdEstimate": 0.0,
       "volume7dUsdEstimate": 0.143136423976
     },
+    "wavax-cwustc": {
+      "baseOrStartSymbol": "WAVAX",
+      "currentHourId": 493770,
+      "hourVolumeUsdEstimate": 0.0,
+      "pairId": "wavax-cwustc",
+      "pairType": "routed",
+      "quoteOrEndSymbol": "CWUSTC",
+      "raw": {
+        "hourVolumePrimary": 0.0,
+        "hourVolumeSecondary": 0.0,
+        "volume24hPrimary": 0.0,
+        "volume24hSecondary": 0.0,
+        "volume7dPrimary": 0.0,
+        "volume7dSecondary": 0.0
+      },
+      "swapCount24h": 0,
+      "swapCount7d": 0,
+      "volume24hUsdEstimate": 0.0,
+      "volume7dUsdEstimate": 0.0
+    },
+    "wavax-lunc": {
+      "baseOrStartSymbol": "WAVAX",
+      "currentHourId": 493770,
+      "hourVolumeUsdEstimate": 0.0,
+      "pairId": "wavax-lunc",
+      "pairType": "routed",
+      "quoteOrEndSymbol": "LUNC",
+      "raw": {
+        "hourVolumePrimary": 0.0,
+        "hourVolumeSecondary": 0.0,
+        "volume24hPrimary": 0.0,
+        "volume24hSecondary": 0.0,
+        "volume7dPrimary": 0.0,
+        "volume7dSecondary": 0.0
+      },
+      "swapCount24h": 0,
+      "swapCount7d": 0,
+      "volume24hUsdEstimate": 0.0,
+      "volume7dUsdEstimate": 0.0
+    },
     "wavax-ustc": {
       "baseOrStartSymbol": "USTC",
       "currentHourId": 493770,
@@ -208,6 +488,86 @@
       "pairId": "wavax-ustc",
       "pairType": "routed",
       "quoteOrEndSymbol": "WAVAX",
+      "raw": {
+        "hourVolumePrimary": 0.0,
+        "hourVolumeSecondary": 0.0,
+        "volume24hPrimary": 0.0,
+        "volume24hSecondary": 0.0,
+        "volume7dPrimary": 0.0,
+        "volume7dSecondary": 0.0
+      },
+      "swapCount24h": 0,
+      "swapCount7d": 0,
+      "volume24hUsdEstimate": 0.0,
+      "volume7dUsdEstimate": 0.0
+    },
+    "weso-amplunc": {
+      "baseOrStartSymbol": "WESO",
+      "currentHourId": 493770,
+      "hourVolumeUsdEstimate": 0.0,
+      "pairId": "weso-amplunc",
+      "pairType": "routed",
+      "quoteOrEndSymbol": "AMPLUNC",
+      "raw": {
+        "hourVolumePrimary": 0.0,
+        "hourVolumeSecondary": 0.0,
+        "volume24hPrimary": 0.0,
+        "volume24hSecondary": 0.0,
+        "volume7dPrimary": 0.0,
+        "volume7dSecondary": 0.0
+      },
+      "swapCount24h": 0,
+      "swapCount7d": 0,
+      "volume24hUsdEstimate": 0.0,
+      "volume7dUsdEstimate": 0.0
+    },
+    "weso-astro": {
+      "baseOrStartSymbol": "WESO",
+      "currentHourId": 493770,
+      "hourVolumeUsdEstimate": 0.0,
+      "pairId": "weso-astro",
+      "pairType": "routed",
+      "quoteOrEndSymbol": "ASTRO",
+      "raw": {
+        "hourVolumePrimary": 0.0,
+        "hourVolumeSecondary": 0.0,
+        "volume24hPrimary": 0.0,
+        "volume24hSecondary": 0.0,
+        "volume7dPrimary": 0.0,
+        "volume7dSecondary": 0.0
+      },
+      "swapCount24h": 0,
+      "swapCount7d": 0,
+      "volume24hUsdEstimate": 0.0,
+      "volume7dUsdEstimate": 0.0
+    },
+    "weso-cwlunc": {
+      "baseOrStartSymbol": "WESO",
+      "currentHourId": 493770,
+      "hourVolumeUsdEstimate": 0.0,
+      "pairId": "weso-cwlunc",
+      "pairType": "routed",
+      "quoteOrEndSymbol": "CWLUNC",
+      "raw": {
+        "hourVolumePrimary": 0.0,
+        "hourVolumeSecondary": 0.0,
+        "volume24hPrimary": 0.0,
+        "volume24hSecondary": 0.0,
+        "volume7dPrimary": 0.0,
+        "volume7dSecondary": 0.0
+      },
+      "swapCount24h": 0,
+      "swapCount7d": 0,
+      "volume24hUsdEstimate": 0.0,
+      "volume7dUsdEstimate": 0.0
+    },
+    "weso-cwustc": {
+      "baseOrStartSymbol": "WESO",
+      "currentHourId": 493770,
+      "hourVolumeUsdEstimate": 0.0,
+      "pairId": "weso-cwustc",
+      "pairType": "routed",
+      "quoteOrEndSymbol": "CWUSTC",
       "raw": {
         "hourVolumePrimary": 0.0,
         "hourVolumeSecondary": 0.0,
@@ -260,11 +620,31 @@
       "swapCount7d": 0,
       "volume24hUsdEstimate": 0.0,
       "volume7dUsdEstimate": 0.0
+    },
+    "weso-wavax": {
+      "baseOrStartSymbol": "WESO",
+      "currentHourId": 493770,
+      "hourVolumeUsdEstimate": 0.0,
+      "pairId": "weso-wavax",
+      "pairType": "routed",
+      "quoteOrEndSymbol": "WAVAX",
+      "raw": {
+        "hourVolumePrimary": 0.0,
+        "hourVolumeSecondary": 0.0,
+        "volume24hPrimary": 0.0,
+        "volume24hSecondary": 0.0,
+        "volume7dPrimary": 0.0,
+        "volume7dSecondary": 0.0
+      },
+      "swapCount24h": 0,
+      "swapCount7d": 0,
+      "volume24hUsdEstimate": 0.0,
+      "volume7dUsdEstimate": 0.0
     }
   },
   "prices": {
     "LUNC": 7.518e-05,
     "USTC": 0.00700908
   },
-  "updatedAtIso": "2026-04-30T18:26:57.453128+00:00"
+  "updatedAtIso": "2026-04-30T18:30:32.063262+00:00"
 }
