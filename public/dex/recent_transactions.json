@@ -5449,7 +5449,26 @@
     "rebase-wavax": [],
     "rebase-weso": [],
     "ustc-cwlunc": [],
-    "ustc-lunc": [],
+    "ustc-lunc": [
+      {
+        "amount": 150000.0,
+        "baseAmount": 1979.016686,
+        "baseSymbol": "USTC",
+        "executionType": "routed",
+        "pairId": "ustc-lunc",
+        "price": 0.013193444573333333,
+        "sourceContract": "terra1nynrxdccq0r9ghrz0sq7tjkkh8wug0ggg4lkzsags8r9dyhf7ypqx5gsr8",
+        "sourcePairId": "ustc-lunc",
+        "sourceType": "routed",
+        "timestamp": "2026-05-07T15:50:03Z",
+        "tokenAmount": 150000.0,
+        "tokenSymbol": "LUNC",
+        "txhash": "8F9FAEB3169606B2FB9200D491FB12B3D3C8D36C5231A977352E935E9D136D61",
+        "type": "SWAP",
+        "value": 1979.016686,
+        "wallet": ""
+      }
+    ],
     "wavax-cwlunc": [
       {
         "amount": 0.02837157,
@@ -7356,5 +7375,5 @@
     ]
   },
   "perPairLimit": 50,
-  "updatedAtIso": "2026-05-07T15:45:26.522937+00:00"
+  "updatedAtIso": "2026-05-07T15:51:48.113176+00:00"
 }
