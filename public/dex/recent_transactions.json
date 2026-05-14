@@ -2054,6 +2054,42 @@
     "astro-wavax": [],
     "cwlunc-cwustc": [
       {
+        "amount": 1851.97977,
+        "baseAmount": 21.910491,
+        "baseSymbol": "CWUSTC",
+        "executionType": "direct",
+        "pairId": "cwlunc-cwustc",
+        "price": 0.011830847914715614,
+        "sourceContract": "terra1l7yt60npu2vj67v7qhdam3l7h0pejtsgysfjll2srqaxppt635pqqjh8hc",
+        "sourcePairId": "cwlunc-cwustc",
+        "sourceType": "primary",
+        "timestamp": "2026-05-14T20:52:21Z",
+        "tokenAmount": 1851.97977,
+        "tokenSymbol": "CWLUNC",
+        "txhash": "114CCF4D583308717C5B1E7C78B7A74F79EF805D7FC72118C629BB204A3E4746",
+        "type": "SELL",
+        "value": 21.910491,
+        "wallet": "terra1nynrxdccq0r9ghrz0sq7tjkkh8wug0ggg4lkzsags8r9dyhf7ypqx5gsr8"
+      },
+      {
+        "amount": 1916.718664,
+        "baseAmount": 21.251681,
+        "baseSymbol": "CWUSTC",
+        "executionType": "direct",
+        "pairId": "cwlunc-cwustc",
+        "price": 0.01108753277105878,
+        "sourceContract": "terra1l7yt60npu2vj67v7qhdam3l7h0pejtsgysfjll2srqaxppt635pqqjh8hc",
+        "sourcePairId": "cwlunc-cwustc",
+        "sourceType": "primary",
+        "timestamp": "2026-05-14T20:51:06Z",
+        "tokenAmount": 1916.718664,
+        "tokenSymbol": "CWLUNC",
+        "txhash": "E1A5E5FE1BA16CBE3029F9FE48F92851F1653DADB56507E9CAED359E2F281690",
+        "type": "BUY",
+        "value": 21.251681,
+        "wallet": "terra1nynrxdccq0r9ghrz0sq7tjkkh8wug0ggg4lkzsags8r9dyhf7ypqx5gsr8"
+      },
+      {
         "amount": 440.486152,
         "baseAmount": 3.982944,
         "baseSymbol": "CWUSTC",
@@ -2916,42 +2952,6 @@
         "type": "BUY",
         "value": 125.428481,
         "wallet": "terra1nynrxdccq0r9ghrz0sq7tjkkh8wug0ggg4lkzsags8r9dyhf7ypqx5gsr8"
-      },
-      {
-        "amount": 7622.363443,
-        "baseAmount": 89.879759,
-        "baseSymbol": "CWUSTC",
-        "executionType": "direct",
-        "pairId": "cwlunc-cwustc",
-        "price": 0.011791586647910513,
-        "sourceContract": "terra1l7vy20x940je7lskm6x9s839vjsmekz9k9mv7g",
-        "sourcePairId": "cwlunc-cwustc-ref-1",
-        "sourceType": "reference",
-        "timestamp": "2026-05-14T15:50:39Z",
-        "tokenAmount": 7622.363443,
-        "tokenSymbol": "CWLUNC",
-        "txhash": "3FF3DE65CC53CDC103CD1915F96D3CC9E1608A93C49ED68E5714352D1518C2E2",
-        "type": "BUY",
-        "value": 89.879759,
-        "wallet": "terra1ydeh9exz82qrzw82ycjr6n462u5ldt8m8qt4rh"
-      },
-      {
-        "amount": 11535.310567,
-        "baseAmount": 135.902574,
-        "baseSymbol": "CWUSTC",
-        "executionType": "direct",
-        "pairId": "cwlunc-cwustc",
-        "price": 0.011781440405149344,
-        "sourceContract": "terra1m6ywlgn6wrjuagcmmezzz2a029gtldhey5k552",
-        "sourcePairId": "cwlunc-cwustc-ref-2",
-        "sourceType": "reference",
-        "timestamp": "2026-05-14T15:47:54Z",
-        "tokenAmount": 11535.310567,
-        "tokenSymbol": "CWLUNC",
-        "txhash": "354169FB02A424E202BCE5DDCEEEEB6697719DCD887A66185416A33B00F64956",
-        "type": "BUY",
-        "value": 135.902574,
-        "wallet": "terra1ydeh9exz82qrzw82ycjr6n462u5ldt8m8qt4rh"
       }
     ],
     "cwlunc-lunc": [
@@ -5912,7 +5912,26 @@
         "wallet": ""
       }
     ],
-    "rebase-cwustc": [],
+    "rebase-cwustc": [
+      {
+        "amount": 40.011347,
+        "baseAmount": 21.910491,
+        "baseSymbol": "CWUSTC",
+        "executionType": "legacy",
+        "pairId": "rebase-cwustc",
+        "price": 0.5476069326033938,
+        "sourceContract": "terra1uewxz67jhhhs2tj97pfm2egtk7zqxuhenm4y4m",
+        "sourcePairId": "rebase-cwustc",
+        "sourceType": "primary",
+        "timestamp": "2026-05-14T20:52:21Z",
+        "tokenAmount": 40.011347,
+        "tokenSymbol": "REBASE",
+        "txhash": "114CCF4D583308717C5B1E7C78B7A74F79EF805D7FC72118C629BB204A3E4746",
+        "type": "SWAP",
+        "value": 21.910491,
+        "wallet": ""
+      }
+    ],
     "rebase-lunc": [
       {
         "amount": 2135.0,
@@ -5952,6 +5971,24 @@
       }
     ],
     "rebase-ustc": [
+      {
+        "amount": 50.0,
+        "baseAmount": 21.251681,
+        "baseSymbol": "USTC",
+        "executionType": "legacy",
+        "pairId": "rebase-ustc",
+        "price": 0.42503362,
+        "sourceContract": "terra1uewxz67jhhhs2tj97pfm2egtk7zqxuhenm4y4m",
+        "sourcePairId": "rebase-ustc",
+        "sourceType": "primary",
+        "timestamp": "2026-05-14T20:51:06Z",
+        "tokenAmount": 50.0,
+        "tokenSymbol": "REBASE",
+        "txhash": "E1A5E5FE1BA16CBE3029F9FE48F92851F1653DADB56507E9CAED359E2F281690",
+        "type": "SWAP",
+        "value": 21.251681,
+        "wallet": ""
+      },
       {
         "amount": 138.30094,
         "baseAmount": 74.301102,
@@ -6832,24 +6869,6 @@
         "txhash": "4EBD38D7FA31A5FB2C8A9C626533ED0DB4CD96EDB0508E785E55EF56DB9C3424",
         "type": "SWAP",
         "value": 221.294397,
-        "wallet": ""
-      },
-      {
-        "amount": 365.4121,
-        "baseAmount": 197.124504,
-        "baseSymbol": "USTC",
-        "executionType": "legacy",
-        "pairId": "rebase-ustc",
-        "price": 0.5394580639228969,
-        "sourceContract": "terra1uewxz67jhhhs2tj97pfm2egtk7zqxuhenm4y4m",
-        "sourcePairId": "rebase-ustc",
-        "sourceType": "primary",
-        "timestamp": "2026-05-14T09:35:28Z",
-        "tokenAmount": 365.4121,
-        "tokenSymbol": "REBASE",
-        "txhash": "8CAE267DF0AF1B7492D28CF6015123403974DA300B842539E2F233D4FEE12078",
-        "type": "SWAP",
-        "value": 197.124504,
         "wallet": ""
       }
     ],
@@ -7820,6 +7839,24 @@
     "weso-astro": [],
     "weso-cwlunc": [
       {
+        "amount": 47.0,
+        "baseAmount": 1851.97977,
+        "baseSymbol": "CWLUNC",
+        "executionType": "legacy",
+        "pairId": "weso-cwlunc",
+        "price": 39.40382489361702,
+        "sourceContract": "terra13ryrrlcskwa05cd94h54c8rnztff9l82pp0zqnfvlwt77za8wjjsld36ms",
+        "sourcePairId": "weso-cwlunc",
+        "sourceType": "primary",
+        "timestamp": "2026-05-14T20:52:21Z",
+        "tokenAmount": 47.0,
+        "tokenSymbol": "WESO",
+        "txhash": "114CCF4D583308717C5B1E7C78B7A74F79EF805D7FC72118C629BB204A3E4746",
+        "type": "SWAP",
+        "value": 1851.97977,
+        "wallet": ""
+      },
+      {
         "amount": 3612.026065,
         "baseAmount": 145219.826388,
         "baseSymbol": "CWLUNC",
@@ -7840,6 +7877,42 @@
     ],
     "weso-cwustc": [],
     "weso-lunc": [
+      {
+        "amount": 889.129444,
+        "baseAmount": 35311.187655,
+        "baseSymbol": "LUNC",
+        "executionType": "legacy",
+        "pairId": "weso-lunc",
+        "price": 39.71433843889214,
+        "sourceContract": "terra13ryrrlcskwa05cd94h54c8rnztff9l82pp0zqnfvlwt77za8wjjsld36ms",
+        "sourcePairId": "weso-lunc",
+        "sourceType": "primary",
+        "timestamp": "2026-05-14T20:55:00Z",
+        "tokenAmount": 889.129444,
+        "tokenSymbol": "WESO",
+        "txhash": "E0D0B1DA9AD9841973A26040E3FEE0881E4F1EF5E836A9CC922CE05DE02D0353",
+        "type": "SWAP",
+        "value": 35311.187655,
+        "wallet": ""
+      },
+      {
+        "amount": 47.6748,
+        "baseAmount": 1916.718664,
+        "baseSymbol": "LUNC",
+        "executionType": "legacy",
+        "pairId": "weso-lunc",
+        "price": 40.20402107612408,
+        "sourceContract": "terra13ryrrlcskwa05cd94h54c8rnztff9l82pp0zqnfvlwt77za8wjjsld36ms",
+        "sourcePairId": "weso-lunc",
+        "sourceType": "primary",
+        "timestamp": "2026-05-14T20:51:06Z",
+        "tokenAmount": 47.6748,
+        "tokenSymbol": "WESO",
+        "txhash": "E1A5E5FE1BA16CBE3029F9FE48F92851F1653DADB56507E9CAED359E2F281690",
+        "type": "SWAP",
+        "value": 1916.718664,
+        "wallet": ""
+      },
       {
         "amount": 903.037528,
         "baseAmount": 35892.427615,
@@ -8703,45 +8776,45 @@
         "type": "SWAP",
         "value": 30682.498276,
         "wallet": ""
-      },
-      {
-        "amount": 473.296846,
-        "baseAmount": 18795.170112,
-        "baseSymbol": "LUNC",
-        "executionType": "legacy",
-        "pairId": "weso-lunc",
-        "price": 39.711167042089265,
-        "sourceContract": "terra13ryrrlcskwa05cd94h54c8rnztff9l82pp0zqnfvlwt77za8wjjsld36ms",
-        "sourcePairId": "weso-lunc",
-        "sourceType": "primary",
-        "timestamp": "2026-05-14T15:13:42Z",
-        "tokenAmount": 473.296846,
-        "tokenSymbol": "WESO",
-        "txhash": "750E1A3BDF958E8BFD50A90097B758679735B07E5D3261554D9A34F7CEC77737",
-        "type": "SWAP",
-        "value": 18795.170112,
-        "wallet": ""
-      },
-      {
-        "amount": 275.269832,
-        "baseAmount": 10938.973085,
-        "baseSymbol": "LUNC",
-        "executionType": "legacy",
-        "pairId": "weso-lunc",
-        "price": 39.73909165970646,
-        "sourceContract": "terra13ryrrlcskwa05cd94h54c8rnztff9l82pp0zqnfvlwt77za8wjjsld36ms",
-        "sourcePairId": "weso-lunc",
-        "sourceType": "primary",
-        "timestamp": "2026-05-14T15:10:17Z",
-        "tokenAmount": 275.269832,
-        "tokenSymbol": "WESO",
-        "txhash": "52060A38D7A24FB3782E0E860E971D278588FF248C5BE315AB3F1BAD7F7F3CEA",
-        "type": "SWAP",
-        "value": 10938.973085,
-        "wallet": ""
       }
     ],
     "weso-rebase": [
+      {
+        "amount": 47.0,
+        "baseAmount": 40.011347,
+        "baseSymbol": "REBASE",
+        "executionType": "routed",
+        "pairId": "weso-rebase",
+        "price": 0.8513052553191489,
+        "sourceContract": "terra1nynrxdccq0r9ghrz0sq7tjkkh8wug0ggg4lkzsags8r9dyhf7ypqx5gsr8",
+        "sourcePairId": "weso-rebase",
+        "sourceType": "routed",
+        "timestamp": "2026-05-14T20:52:21Z",
+        "tokenAmount": 47.0,
+        "tokenSymbol": "WESO",
+        "txhash": "114CCF4D583308717C5B1E7C78B7A74F79EF805D7FC72118C629BB204A3E4746",
+        "type": "SWAP",
+        "value": 40.011347,
+        "wallet": ""
+      },
+      {
+        "amount": 50.0,
+        "baseAmount": 47.6748,
+        "baseSymbol": "REBASE",
+        "executionType": "routed",
+        "pairId": "weso-rebase",
+        "price": 0.9534959999999999,
+        "sourceContract": "terra1nynrxdccq0r9ghrz0sq7tjkkh8wug0ggg4lkzsags8r9dyhf7ypqx5gsr8",
+        "sourcePairId": "weso-rebase",
+        "sourceType": "routed",
+        "timestamp": "2026-05-14T20:51:06Z",
+        "tokenAmount": 50.0,
+        "tokenSymbol": "WESO",
+        "txhash": "E1A5E5FE1BA16CBE3029F9FE48F92851F1653DADB56507E9CAED359E2F281690",
+        "type": "SWAP",
+        "value": 47.6748,
+        "wallet": ""
+      },
       {
         "amount": 100.0,
         "baseAmount": 44.148007,
@@ -8820,5 +8893,5 @@
     "weso-wavax": []
   },
   "perPairLimit": 50,
-  "updatedAtIso": "2026-05-14T20:49:17.434233+00:00"
+  "updatedAtIso": "2026-05-14T20:55:13.201402+00:00"
 }
